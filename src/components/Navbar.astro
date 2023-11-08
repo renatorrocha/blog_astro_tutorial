@@ -7,4 +7,8 @@ interface Props {
 const { title, link } = Astro.props
 ---
 
-<a href={link}>{title}</a>
+<a
+  href={link}
+  class="text-gray-200 hover:text-purple-400 transition-all duration-300 font-semibold"
+  >{title}</a
+>
